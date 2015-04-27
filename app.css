@@ -1,0 +1,197 @@
+h1,h3,p,a,button{
+	font-family: "Helvetica Neue", Helvetica, Arial,"Mirosoft YaHei UI","Mirosoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+.onepage{
+	height: 750px;
+}
+.onepage-bg{
+	height: 750px;
+	width: 100%;
+	position: absolute;
+	background-position: center center;
+	background-size: cover;
+
+}
+#onepagebg{
+	background-image: url('images/page1bg.jpg');
+}
+.headh1content{
+	margin-top: 150px;
+	line-height: 75px;
+}
+.title-text{
+	margin-left: 50px;
+}
+.headfontsize h1{
+	font-size: 50pt;
+	color: #ffffff;
+	margin-bottom: 60px;
+}
+.headfontsize p{
+	color: #ffffff;
+}
+.twopage{
+	margin-top: 80px;
+	padding-top: 55px;
+	height: 700px;
+	/*background-image: url('images/page2bg.jpg');*/
+	position: relative;
+}
+.twopage-text{
+	width: 100%;
+	text-align: center;
+}
+.twopage-text-h1{
+	width:100%;
+}
+.twopage-text-h1 img{
+	position:relative;
+	left: 15px;
+	top: -5px;
+}
+.twopage .row{
+	margin-left: 0;
+	margin-right: 0;
+}
+.twopage-courses{
+	float: left;
+	background:#ffffff;
+	padding: 0 2px 2px 0;
+	position: relative;
+	overflow:hidden;
+}
+.twopage-courses >a{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.classicon h3{
+	margin-top: 120px;
+	color:#d1e973;
+	
+}
+.classicon h1{
+	color:#fff5e1;
+}
+.classicon{
+	width: 100%;
+	height: 100%;
+	position: absolute;/*绝对使得两个div的位置重合？？？*/
+	left: 0;
+	top: 0;
+	color:#fff;
+	opacity: 0;
+}
+.classicon:hover{
+	background: #1eb450;
+	opacity:0.8;
+	transition:opacity 0.5s;
+}
+.twopagebtn{
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 10px;
+}
+#twopage-easy{
+	margin:50px 0 100px 0;
+}
+.threepage{
+	position: absolute;
+	width:100%;
+	height: 760px;
+}
+.threepage-bg{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('images/page3bg.jpg');
+}
+.threepagecontent{
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+}
+.threepagetext{
+	margin-top: 50px;
+}
+.threepagebtncontent{
+	margin-top: 200px;
+
+}
+.fourpage{
+	height: 750px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("images/green.jpg");
+	margin-top: 750px;
+}
+.coursedetail-text{
+	color:#ffffff;
+	margin-top: 100px;
+	width: 100%;
+	text-align: center;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+.fourpage .container .carousel{
+	margin-top: 100px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  left: -20%;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  right: -20%;
+}
+.carousel-indicators {
+	top: 100px;
+}
+.item>img{
+	position: relative;
+	left: 250px;
+} 
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+.mask{
+	background: #000;
+	opacity:0.75;
+	filter:alpha(opacity=75);
+	/*height: 1000px;
+	width: 100%;*/
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.longin{
+	position: fixed;
+	left: 35%;
+	top: 30%;
+	z-index: 101;
+}
+.longinContent{
+	width: 444px;
+	height: 289px;
+	background: url("images/login.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;	/*为子级元素使用absolute做准备*/
+}
+.closelogin{
+	height: 32px;
+	width: 32px;
+	background:url("images/close_pop.png") no-repeat;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+}
